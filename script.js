@@ -19,7 +19,7 @@ function showTodos() {
     </div>
     `;
 
-    // styling to the edit and delete buttons
+    // styling the todo container
     const actions = todoItem.querySelectorAll(".actions");
     actions.forEach((action) => {
       action.style.border = "none";
@@ -30,12 +30,16 @@ function showTodos() {
       action.style.cursor = "pointer";
     });
 
+    // styling to the edit button
+
     const edit = todoItem.querySelectorAll(".edit");
     edit.forEach((x) => {
       x.style.backgroundColor = "#f0ad4e";
       x.style.color = "#fff";
       x.style.fontWeight = "bold";
     });
+
+    // styling to the delete button
 
     const del = todoItem.querySelectorAll(".delete");
     del.forEach((x) => {

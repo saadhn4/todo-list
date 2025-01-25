@@ -27,6 +27,7 @@ function showTodos() {
       action.style.borderRadius = "10px";
       action.style.marginRight = "8px";
       action.style.marginTop = "10px";
+      action.style.cursor = "pointer";
     });
 
     const edit = todoItem.querySelectorAll(".edit");

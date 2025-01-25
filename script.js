@@ -7,7 +7,7 @@ function showTodos() {
     const todoItem = document.createElement("div");
 
     // styling the tasks being added
-    todoItem.style.border = "1px solid black";
+    todoItem.style.boxShadow = "rgba(0, 0, 0, 0.1) 0px 4px 12px";
     todoItem.style.marginTop = "10px";
     todoItem.style.paddingTop = "10px";
     todoItem.style.paddingBottom = "10px";

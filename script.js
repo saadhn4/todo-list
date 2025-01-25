@@ -11,6 +11,8 @@ function showTodos() {
     todoItem.style.marginTop = "10px";
     todoItem.style.paddingTop = "10px";
     todoItem.style.paddingBottom = "10px";
+
+    // todo being added in the container
     todoItem.innerHTML = `
     <span>${x}</span>
     <div>

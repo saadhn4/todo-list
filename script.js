@@ -61,6 +61,14 @@ function addTodo() {
   showTodos();
 }
 
+//allowing users to add task by pressing enter too
+
+document.getElementById("todoInput").addEventListener("keypress", (event) => {
+  if (event.key == "Enter") {
+    addTodo();
+  }
+});
+
 function editTodo(index) {
   const update = prompt("Update Task:", todos[index]);
   if (!update) {

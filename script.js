@@ -91,3 +91,5 @@ function deleteTodo(index) {
   localStorage.setItem("todos", JSON.stringify(todos));
   showTodos();
 }
+
+showTodos();

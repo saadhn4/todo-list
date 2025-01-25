@@ -55,7 +55,7 @@ function addTodo() {
     alert("Please enter a task!");
     return;
   }
-  todos.push(task);
+  todos.unshift(task);
   todoInput.value = "";
   localStorage.setItem("todos", JSON.stringify(todos));
   showTodos();
